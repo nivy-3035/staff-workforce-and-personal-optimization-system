@@ -1,0 +1,66 @@
+# ===============================
+# Environment Variables
+# ===============================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# ===============================
+# Dependencies
+# ===============================
+node_modules/
+
+# ===============================
+# Logs
+# ===============================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# ===============================
+# Build Outputs
+# ===============================
+# React
+build/
+dist/
+
+# Node
+coverage/
+
+# ===============================
+# Cache & Temp
+# ===============================
+.cache/
+.tmp/
+.temp/
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/
+.idea/
+*.swp
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Runtime Files
+# ===============================
+*.pid
+*.seed
+*.pid.lock
+
+# ===============================
+# Optional (Uncomment if needed)
+# ===============================
+# public/uploads/
+# .next/

@@ -1,0 +1,23 @@
+{
+  "name": "staff-info-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Staff Management Backend with Blockchain",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network localhost",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "ethers": "^6.0.0",
+    "express": "^4.21.2",
+    "hardhat": "^2.20.0",
+    "multer": "^2.0.2",
+    "mysql2": "^3.6.0",
+    "nodemailer": "^7.0.11"
+  }
+}

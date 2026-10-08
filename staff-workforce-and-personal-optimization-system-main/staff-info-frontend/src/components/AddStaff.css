@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+}
+
+.main {
+  flex: 1;
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #cdcdcd;
+}
+
+.heading {
+  font-weight: bold;
+  color: #32476d;
+  margin-bottom: 1.2rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+}
+
+.input, .textarea, .half-input {
+  padding: 10px;
+  margin-bottom: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.half-input {
+  width: 48%;
+}
+
+.textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+.btn {
+  background: #2563eb;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
